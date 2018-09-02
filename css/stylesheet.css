@@ -1,0 +1,54 @@
+*{font-family: "Raleway",Verdana, Arial, sans-serif !important;}.navbar{border-radius: 3px;z-index:950;height:60px;margin-top: 20px;margin-left:7%;width:86%;box-shadow: 0 2px 10px -2px rgba(0,0,0,.3)}
+@media (max-width: 767px) {
+  .item-1{margin-top:7% ;}.img-container{height:200px;}.main_content{ background-color:#9aafaf ; font-family:sans-serif;
+  text-align: center;}
+  .navbar-brand-logo1{display:None }.navbar-brand.abs{width:40%;left:20px;}#collapsingNavbar{margin-top:1.6% ;background-color: white;z-index:950}
+  .search-part{padding-top: 3%}.nav-item1{text-align:center;}.nav-item1:hover{}.caption {position: relative;left: 0;top: 10%;
+  width: 100%;text-align: center;color: #000;z-index:900}.cat-card{padding:20 20 20 20}.cat-card {margin-top:7%;}.main_content h2 ,.main_content h3{font-size:24px ;}
+  /*Animejs1 */
+    .ml12 {font-size: 26px;font-weight:bold;text-transform: uppercase;letter-spacing: 0.1em;color: white;}  .ml12 .letter {display: inline-block;}
+    /*Animejs2 */
+    .ml9 .text-wrapper {font-size: 24px;color: white;display: inline-block;
+      padding-right: 0.05em;padding-bottom: 0.1em;overflow: hidden;}.ml9 .letter {transform-origin: 50% 100%;display: inline-block;line-height: .01em;}
+  #footer {bottom: 0;width: 100%;position: relative;height: $height-footer;background-color: #f5f5f5;}.content{margin-top:50%}}
+@media (max-width:540px){.main_content{ background-color:#9aafaf ; font-family:sans-serif;
+text-align: center;}.navbar-brand-logo1{display:None }.cat-card{margin-left:2% ;margin-right: 2%;}.cat-card img{align-self: center;}
+  .navbar-brand-logo{width:70%;}.custom-button{background-color:#25baab;border-color: #25baab;font-size: 11px;margin-top:-2%}.content{margin-top:32%;}
+  .caption {position: relative;left: 0;top: 90;width: 100%;text-align: center;color: #000;z-index:900}}
+@media (min-width:540px) and (max-width: 767px){.navbar-brand-logo1{display:None }.content{margin-top:54%;}.cat-card img{align-self: center;}
+  .navbar-brand-logo{width:50%;}.caption {position: absolute;left: 0;top: 30%;width: 100%;text-align: center;color: #000;z-index:900}
+  #footer {bottom: 0;width: 100%;position: relative;
+  height: $height-footer;background-color: #f5f5f5;}}
+@media (min-width:768px) and (max-width: 870px){.navbar-brand-logo{display:None }}
+@media screen and (min-width: 871px){.navbar-brand-logo1{display:None }}
+@media screen and (min-width: 768px) {.img-container{height:230px;}.cat-card img{align-self: center;}.cat-card{padding:20 20 20 20}.navbar-brand-logo:hover{width:14%;}
+  .nav-item1{z-index:950;}.navbar-brand.abs{position: absolute;width: auto;left:20px;text-align: left;}.caption {position: absolute;left: 0;
+  top: 35%;width: 100%;text-align: center;color: #000;z-index:900}
+  /*Animejs1 */
+  .ml12 {font-size: 40px;font-weight:bold;text-transform: uppercase;letter-spacing: 0.1em;color: white;}  .ml12 .letter {display: inline-block;}
+  /*Animejs2 */
+  .ml9{letter-spacing: 0.4em;}.ml9 .text-wrapper {font-size: 38px;color: white;display: inline-block;
+    padding-right: 0.05em;padding-bottom: 0.1em;overflow: hidden;}.ml9 .letter {transform-origin: 50% 100%;display: inline-block;line-height: .01em;}
+  #footer{bottom: 0;width:100%;position:relative;height:$height-footer;background-color: #f5f5f5;}.content{margin-top:48%}}
+  .navbar-toggler{margin-left: 85%;margin-top:auto;}.custom-button{background-color:#25baab;border-color: #25baab;}
+  .custom-button:hover{background-color:#14665d;border-color: #14665d;}.nav-item1:hover{color: green;font-weight: bold;}
+  .cat-card{margin-right: 8%;background-color: #004266;color:#ffffff}.cat-cards{margin-left: 6%;}.after-scrl{border-radius: 0px;margin-left:0%;
+  width:100%;margin-top:0px;box-shadow: 0 2px 10px -2px rgba(0,0,0,.3);}.scrl{border-radius: 3px;margin-left:7%;width:86%;margin-top:20px}
+  #footer{margin-bottom: -30px;padding-bottom: 0px;background-color: #2c2d2d;}.main_content{ background-color:#9aafaf ; font-family:sans-serif;
+  padding: 10% 10% 10% 10%; text-align: center;}.nav-item1:hover{border-radius:2px}.main_content p{text-align: justify}
+  .footer-block{color:white}.sample img{align-self:center;}.blank{height:60px;background-color: #2c2d2d;;z-index:890;}.form-container{margin-left: 20;margin-right:0;}
+.sub_hd{text-align:left;margin-left:0px ;font-size: 19px;}.product_image{padding-top:60px ;}.product_card,.facility_card{background-color:#9aafaf ;}
+.cat-img {display: block;width: 100%;height: auto;}.overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0;
+transition: .5s ease;background-color: #012359;}.cat-card:hover .overlay {opacity: .7;}.name {z-index:950 ;color: white;font-size: 20px;position: absolute;top: 50%;left: 50%;
+-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center;
+-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.product h3{text-align: left;}.pr-head h3{text-align:left;font-size:18px;}.underline{padding-bottom:0.5px ;border-bottom: 0.5px solid currentColor;}
+.product_card ul{list-style-type: square;}.underline1{padding-bottom:1px ;border-bottom: 1px solid currentColor;}
+.product_image{margin-top: -15%;}.card-product_card,.card-facility_card{padding:20 20 40 20 ;box-shadow: 0 2px 10px -2px rgba(0,0,0,.3)}
+.row {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display:flex;flex-wrap: wrap;}
+.row > [class*='col-'] {display: flex;flex-direction: column;}.img-container:hover{border-top: 3px solid black;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));background-image: -webkit-linear-gradient(#000, transparent);
+  background-image:-moz-linear-gradient(#000, transparent),-moz-linear-gradient(#000, transparent);
+  background-image:-o-linear-gradient(#000, transparent),-o-linear-gradient(#000, transparent);
+  background-image:linear-gradient(#000, transparent),linear-gradient(#000, transparent);
+  -moz-background-size: 3px 100%;background-size: 3px 100%;background-position: 0 0, 100% 0;background-repeat: no-repeat; }
