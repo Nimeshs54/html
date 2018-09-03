@@ -64,10 +64,9 @@
   <span class="row">
   <span class="col-md-8 pr-head"><h3><span class="underline1">Manufactures of sheet metal parts</span></h3><br>
   </span>
-</span>
+</span></div>
 <!-- Type-1 -->
 <div class="container multi">
-  <h2 class="titles"><span class="pull-right">Type-1</span> Bootstrap 3 Multiple Slide Carousel</h2>
   <div class="row">
     <div class="carousel slide" id="myCarousel">
       <div class="carousel-inner">
@@ -147,8 +146,29 @@ $(function() {
         }
     });
 });
+/* Type-1 */
+$('#myCarousel').carousel({
+  interval: 4000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+
+  for (var i=0;i<2;i++) {
+    next=next.next();
+    if (!next.length) {
+    	next = $(this).siblings(':first');
+  	}
+
+    next.children(':first-child').clone().appendTo($(this));
+  }
+});
+
 </script>
-<script src="carousel.js"</script>
 </body>
 
 </html>
