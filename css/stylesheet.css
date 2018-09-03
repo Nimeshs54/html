@@ -52,3 +52,9 @@ transition: .5s ease;background-color: #012359;}.cat-card:hover .overlay {opacit
   background-image:-o-linear-gradient(#000, transparent),-o-linear-gradient(#000, transparent);
   background-image:linear-gradient(#000, transparent),linear-gradient(#000, transparent);
   -moz-background-size: 3px 100%;background-size: 3px 100%;background-position: 0 0, 100% 0;background-repeat: no-repeat; }
+/*carousel*/
+.multi {.carousel-inner.active.left {left: -25%;}.carousel-inner .next {left:  25%;}.carousel-inner .prev {
+left: -25%;}.carousel-control {width:  4%;}.carousel-control.left, .carousel-control.right {margin-left:15px;background-image:none;}}
+/* Heading */
+.titles {background: orange;border: 8px double #fff;padding: 10px;color: #fff;
+span{color: rgba(256, 256, 256, .6);}}
