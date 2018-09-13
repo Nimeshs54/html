@@ -1,6 +1,7 @@
-<html>
+<!DOCTYPE html>
     <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="Sheet Metal Fabrication, CNC Punching, Bending">
   <meta name="keywords" content="CNC Punching,Fabrication,CNC Turret Punching,
   Sheet Metal,Bending,Greenfold,Greenfold.in, Green Fold Metal Technologies, Sheet Metal Job Work">
@@ -170,10 +171,11 @@ function validateForm() {
         <!--Grid column-->
         <div class="col-md-3 mt-4 text-center">
             <ul class="list-unstyled mb-0">
-                <li><i class="fa fa-map-marker fa-2x"></i>
+                <a class="no-style" href="https://www.google.com/maps/place/13%C2%B001'23.8%22N+77%C2%B030'05.8%22E/@13.0232778,77.4994224,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d13.0232822!4d77.5016023">
+                  <li><i class="fa fa-map-marker fa-2x"></i>
                     <p>No. 34, Kempaiah Garden, 13th CrossNear BMTC Depot,
                       4th Phase Peenya Industrial Area, Bengaluru - 590 058</p>
-                </li>
+                </li></a>
 
                 <li><i class="fa fa-phone mt-4 fa-2x"></i>
                     <p>+919880382923</p>
@@ -189,7 +191,29 @@ function validateForm() {
     </div>
 
 </section>
+<div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Greenfold
+  var greenfold = {lat: 13.0232822, lng:77.5016023};
+  // The map, centered at Greenfold
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: greenfold});
+  // The marker, positioned at Greenfold
+  var marker = new google.maps.Marker({position: greenfold, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA3isq9utTxr60Zha40-Hhc4xVUuMNaqI&callback=initMap">
+    </script>
 </div>
+<br>
 <div id="footer">
 <br>
 <div class="row container">
@@ -201,8 +225,8 @@ function validateForm() {
 <a href="tel:+919880382923"> <i class="fa fa-phone"></i> +919880382923 &nbsp;&nbsp;&nbsp;&nbsp;</a></span>
   <br><br>
 </span></div>
-<p class="footer-block footer-block-home" style="font-size:14px ;font-family:Calibri;">
-Copyright &copy; 2018 All Rights Reserved.
+<p class="footer-block footer-block-home" style="font-family:Calibri;">
+Copyright &copy; 2018 All Rights Reserved.<span class="small-s"><br></span>
 Powered By <a href="http://websolutions.gq"> Web tech solutions</a>&nbsp;</p>
   <span>&nbsp;</span>
 
